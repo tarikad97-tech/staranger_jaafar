@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- مهم للهاتف -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Strange Things Comic - Home</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+
+    <div class="logo">STRANGER</div>
+
+    <div class="menu-toggle" id="mobile-menu">
+        ☰
+    </div>
+
+    <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="episode1.html">Episode 1</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+
+</nav>
+
+
+<!-- Main Content -->
+<div class="container">
+        
+<h1>Strange Things Comic</h1>
+
+<h2>Episode 1 – The Disappearance of Will Byers</h2>
+
+<p class="description">
+A comic adaptation inspired by the first episode of Stranger Things.
+</p>
+
+<img src="images/Stranger_Things_Day_Poster.webp" alt="Cover: Episode 1" class="comic-page">
+
+<div class="button-container">
+<a href="episode1.html" class="btn">Read Episode 1</a>
+</div>
+
+</div>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            <h2>STRANGER</h2>
+            <p>A fan comic inspired by the world of mystery and supernatural adventures.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Navigation</h3>
+            <a href="index.html">Home</a>
+            <a href="episode1.html">Episode 1</a>
+            <a href="about.html">About</a>
+        </div>
+
+        <div class="footer-social">
+            <h3>Follow</h3>
+            <p>Stay tuned for new episodes and updates.</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Strange Things Comic — JAAFAR </p>
+    </div>
+
+</footer>
+
+<!-- Mobile Menu Script -->
+<script>
+
+const menu = document.getElementById("mobile-menu");
+const nav = document.querySelector(".nav-list");
+
+menu.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
+
+</script>
+
+</body>
+</html>
